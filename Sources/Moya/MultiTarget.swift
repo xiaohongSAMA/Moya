@@ -23,7 +23,7 @@ public enum MultiTarget: TargetType {
     public var sampleData: Data { target.sampleData }
 
     /// The `Task` of the embedded target.
-    public var task: Task { target.task }
+    public var task: MoyaTask { target.task }
 
     /// The `ValidationType` of the embedded target.
     public var validationType: ValidationType { target.validationType }

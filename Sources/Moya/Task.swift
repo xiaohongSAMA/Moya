@@ -1,7 +1,7 @@
 import Foundation
 
 /// Represents an HTTP task.
-public enum Task {
+public enum MoyaTask {
 
     /// A request with no additional data.
     case requestPlain
